@@ -1,0 +1,19 @@
+{
+  "name": "wiki-aggregator",
+  "version": "0.0.0",
+  "description": "An application to aggregate wiki articles",
+  "keywords": ["wiki", "education"],
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kate-most/wiki-aggregator.git"
+  },
+  "author": "Kateryna Kukunina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kate-most/wiki-aggregator/issues"
+  },
+  "homepage": "https://github.com/kate-most/wiki-aggregator#readme"
+}
