@@ -1,19 +1,20 @@
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var NODE_ENV = process.env.NODE_ENV || 'development';
 
 // Have to export cause webpack requires configuration object
 module.exports = {
     // Path to entry file
-    entry: './src/app.js',
+    entry: './public/src/app.js',
 
     output: {
         // Path to output files
-        path: './build',
+        path: './public/build',
         filename: 'app.bundle.js'
     },
 
-    watch: true,
+    watch: NODE_ENV === 'development',
 
-    devtool: 'source-map',
+    devtool: NODE_ENV === 'development' ? 'source-map' : null,
 
     module: {
         loaders: [
