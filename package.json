@@ -6,6 +6,10 @@
     "wiki",
     "education"
   ],
+  "engines": {
+    "node": "6.0.0",
+    "npm": "3.8.6"
+  },
   "scripts": {
     "test": "jest",
     "build": "webpack",
